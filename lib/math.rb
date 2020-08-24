@@ -19,9 +19,15 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-
+  mod = num1 % num2
+  puts mod
 end
 
 def square_root(num)
   Math.sqrt(num)
+  puts Math.sqrt(num)
 end
+
+def testing 
+  addition(1, 3)
+end 
