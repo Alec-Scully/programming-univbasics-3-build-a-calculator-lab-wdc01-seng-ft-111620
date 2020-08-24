@@ -29,7 +29,10 @@ def square_root(num)
 end
 
 def testing 
-  num1 = "5"
-  num2 = "4"
-  addition(num1, num2)
+  addition(5,4)
+  subtraction(10,5)
+  division(50,2)
+  multiplication(4,30)
+  modulo(34,5)
+  square_root(81)
 end 
